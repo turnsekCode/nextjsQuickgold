@@ -4,7 +4,11 @@ export default function Modal({ children, isOpen, closeModal }) {
   return (
     <div className={`${modal.contenedor_modal} ${isOpen && modal.is_open}`}>
       <div className={`${modal.ventana_modal} ${isOpen && modal.is_open}`}>
-        <div className={modal.boton_cerrar} onClick={closeModal}>
+        <div
+          className={modal.boton_cerrar}
+          onClick={closeModal}
+          id="data_click"
+        >
           <CancelRoundedIcon />
         </div>
         {children}
