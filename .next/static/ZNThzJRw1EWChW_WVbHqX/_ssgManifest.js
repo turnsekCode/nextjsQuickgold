@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Ftiendas\u002Fcompro-oro-alcobendas\u002Fcalle-de-manuel-serrano-frutos-2","\u002Ftiendas\u002Fcompro-oro-valencia\u002Fav-burjassot-116"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

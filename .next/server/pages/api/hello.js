@@ -5,7 +5,7 @@ exports.id = 453;
 exports.ids = [453];
 exports.modules = {
 
-/***/ 2677:
+/***/ 5668:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -17,7 +17,7 @@ function handler(req, res) {
     res.status(200).json({
         name: "John Doe"
     });
-};
+}
 
 
 /***/ })
@@ -29,7 +29,7 @@ function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(2677));
+var __webpack_exports__ = (__webpack_exec__(5668));
 module.exports = __webpack_exports__;
 
 })();

@@ -4,7 +4,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 2152:
+/***/ 1518:
 /***/ ((module) => {
 
 // Exports
@@ -18,7 +18,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7232:
+/***/ 5951:
 /***/ ((module) => {
 
 // Exports
@@ -41,7 +41,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9076:
+/***/ 5516:
 /***/ ((module) => {
 
 // Exports
@@ -64,7 +64,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5825:
+/***/ 3446:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -78,8 +78,10 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: ./styles/globals.css
+var globals = __webpack_require__(6764);
 // EXTERNAL MODULE: ./componentes/navbar/navbar.module.css
-var navbar_module = __webpack_require__(7232);
+var navbar_module = __webpack_require__(5951);
 var navbar_module_default = /*#__PURE__*/__webpack_require__.n(navbar_module);
 ;// CONCATENATED MODULE: ./componentes/navbar/Navbar.js
 
@@ -172,7 +174,7 @@ function Navbar() {
             ]
         })
     });
-};
+}
 
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
@@ -202,7 +204,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 function NavbarStickyOrdenador() {
-    const { 0: stickyClass , 1: setStickyClass  } = (0,external_react_.useState)("");
+    const [stickyClass, setStickyClass] = (0,external_react_.useState)("");
     (0,external_react_.useEffect)(()=>{
         window.addEventListener("scroll", stickNavbar);
         return ()=>window.removeEventListener("scroll", stickNavbar);
@@ -287,7 +289,7 @@ function NavbarStickyOrdenador() {
             ]
         })
     });
-};
+}
 
 ;// CONCATENATED MODULE: ./componentes/navbar/NavbarSticky.js
 
@@ -296,8 +298,8 @@ function NavbarStickyOrdenador() {
 
 
 const NavbarSticky = ()=>{
-    const { 0: prevScrollPos , 1: setPrevScrollPos  } = (0,external_react_.useState)(0);
-    const { 0: visible , 1: setVisible  } = (0,external_react_.useState)(true);
+    const [prevScrollPos, setPrevScrollPos] = (0,external_react_.useState)(0);
+    const [visible, setVisible] = (0,external_react_.useState)(true);
     const handleScroll = debounce(()=>{
         const currentScrollPos = window.pageYOffset;
         setVisible(prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 80 || currentScrollPos < 10);
@@ -336,7 +338,7 @@ const NavbarSticky = ()=>{
 /* harmony default export */ const navbar_NavbarSticky = (NavbarSticky);
 
 // EXTERNAL MODULE: ./componentes/navbarmobil/navBarMobil.module.css
-var navBarMobil_module = __webpack_require__(9076);
+var navBarMobil_module = __webpack_require__(5516);
 var navBarMobil_module_default = /*#__PURE__*/__webpack_require__.n(navBarMobil_module);
 ;// CONCATENATED MODULE: external "@mui/icons-material/Close"
 const Close_namespaceObject = require("@mui/icons-material/Close");
@@ -356,7 +358,7 @@ var KeyboardArrowUp_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowUp
 
 
 function Menu({ MenuAbierto1 , setMenuAbierto  }) {
-    const { 0: subMenuOpen , 1: setSubMenuOpen  } = (0,external_react_.useState)(false);
+    const [subMenuOpen, setSubMenuOpen] = (0,external_react_.useState)(false);
     const cerrarMenu = ()=>{
         setMenuAbierto(false);
     };
@@ -478,7 +480,7 @@ function Menu({ MenuAbierto1 , setMenuAbierto  }) {
             ]
         })
     });
-};
+}
 
 ;// CONCATENATED MODULE: external "@mui/icons-material/Menu"
 const icons_material_Menu_namespaceObject = require("@mui/icons-material/Menu");
@@ -490,7 +492,7 @@ var Menu_default = /*#__PURE__*/__webpack_require__.n(icons_material_Menu_namesp
 
 
 function NavBarMobil() {
-    const { 0: MenuAbierto , 1: setMenuAbierto  } = (0,external_react_.useState)(false);
+    const [MenuAbierto, setMenuAbierto] = (0,external_react_.useState)(false);
     const abrirMenuMobil = ()=>{
         setMenuAbierto(true);
     };
@@ -510,10 +512,10 @@ function NavBarMobil() {
             })
         ]
     });
-};
+}
 
 // EXTERNAL MODULE: ./componentes/cabecera/cabecera.module.css
-var cabecera_module = __webpack_require__(2152);
+var cabecera_module = __webpack_require__(1518);
 var cabecera_module_default = /*#__PURE__*/__webpack_require__.n(cabecera_module);
 ;// CONCATENATED MODULE: ./componentes/cabecera/Cabecera.js
 
@@ -542,7 +544,7 @@ function Cabecera() {
             /*#__PURE__*/ jsx_runtime_.jsx(NavBarMobil, {})
         ]
     });
-};
+}
 
 ;// CONCATENATED MODULE: ./componentes/footer/Footer.js
 
@@ -552,7 +554,7 @@ function Footer() {
             children: "footer"
         })
     });
-};
+}
 
 ;// CONCATENATED MODULE: ./componentes/layout/Layout.js
 
@@ -569,7 +571,7 @@ function Layout({ children  }) {
             ]
         })
     });
-};
+}
 
 ;// CONCATENATED MODULE: ./pages/_app.js
 
@@ -585,6 +587,13 @@ function Layout({ children  }) {
     });
 }
 /* harmony default export */ const _app = (MyApp);
+
+
+/***/ }),
+
+/***/ 6764:
+/***/ (() => {
+
 
 
 /***/ }),
@@ -653,6 +662,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js")
 
 /***/ }),
 
+/***/ 6220:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
+
+/***/ }),
+
 /***/ 299:
 /***/ ((module) => {
 
@@ -682,6 +699,14 @@ module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
 
 /***/ }),
 
@@ -773,6 +798,14 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ 6405:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
+
+/***/ }),
+
 /***/ 997:
 /***/ ((module) => {
 
@@ -788,7 +821,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [699,676,664], () => (__webpack_exec__(5825)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,573,676,664], () => (__webpack_exec__(3446)));
 module.exports = __webpack_exports__;
 
 })();

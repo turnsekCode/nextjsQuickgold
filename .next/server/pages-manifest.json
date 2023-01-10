@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/hello": "pages/api/hello.js",
   "/tiendas/compro-oro-alcobendas": "pages/tiendas/compro-oro-alcobendas.html",
   "/tiendas/compro-oro-valencia": "pages/tiendas/compro-oro-valencia.html",
+  "/tiendas/compro-oro-valencia/av-burjassot-116": "pages/tiendas/compro-oro-valencia/av-burjassot-116.js",
   "/tiendas/compro-oro-alcobendas/calle-de-manuel-serrano-frutos-2": "pages/tiendas/compro-oro-alcobendas/calle-de-manuel-serrano-frutos-2.js",
   "/": "pages/index.html",
-  "/tiendas/compro-oro-valencia/av-burjassot-116": "pages/tiendas/compro-oro-valencia/av-burjassot-116.js",
   "/404": "pages/404.html"
 }

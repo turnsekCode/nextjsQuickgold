@@ -5,7 +5,7 @@ exports.id = 445;
 exports.ids = [445];
 exports.modules = {
 
-/***/ 2125:
+/***/ 6900:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -21,13 +21,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4298);
 /* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_script__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _componentes_contenedor_Contenedor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4639);
-/* harmony import */ var _componentes_empe_os_Empenos__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1442);
-/* harmony import */ var _componentes_info_tiendas_Info_tiendas__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4812);
-/* harmony import */ var _componentes_invertir_Invertir__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1864);
-/* harmony import */ var _componentes_rese_as_Resenas__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9664);
-/* harmony import */ var _componentes_precio_divisa_Precio_divisa__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(1714);
-/* harmony import */ var _componentes_precio_oro_Precio_oro__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(4490);
+/* harmony import */ var _componentes_contenedor_Contenedor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(169);
+/* harmony import */ var _componentes_empe_os_Empenos__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3471);
+/* harmony import */ var _componentes_info_tiendas_Info_tiendas__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5367);
+/* harmony import */ var _componentes_invertir_Invertir__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7625);
+/* harmony import */ var _componentes_rese_as_Resenas__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6603);
+/* harmony import */ var _componentes_precio_divisa_Precio_divisa__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(5554);
+/* harmony import */ var _componentes_precio_oro_Precio_oro__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(5134);
 
 
 
@@ -81,7 +81,7 @@ function AvBurjassot({ data , dataIdWp , placeid  }) {
             })
         ]
     });
-};
+}
 /*const ciudad = "elche";
 export async function getStaticProps() {
   const res = await fetch(
@@ -209,6 +209,13 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ 6405:
+/***/ ((module) => {
+
+module.exports = require("react-dom");
+
+/***/ }),
+
 /***/ 997:
 /***/ ((module) => {
 
@@ -223,7 +230,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [699,653], () => (__webpack_exec__(2125)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,573,997], () => (__webpack_exec__(6900)));
 module.exports = __webpack_exports__;
 
 })();
