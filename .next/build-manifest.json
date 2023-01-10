@@ -1,39 +1,66 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/PYg4FfXdgNLvnKWENpZzd/_buildManifest.js",
+    "static/PYg4FfXdgNLvnKWENpZzd/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-8646ebd196ee32a0.js",
+      "static/chunks/framework-715a76d8b0695da7.js",
+      "static/chunks/main-e0ddca6ca271803b.js",
+      "static/css/173206a3ead10f6a.css",
+      "static/chunks/pages/index-43dbb03eab307343.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-8646ebd196ee32a0.js",
+      "static/chunks/framework-715a76d8b0695da7.js",
+      "static/chunks/main-e0ddca6ca271803b.js",
+      "static/css/66833c5682df24af.css",
+      "static/chunks/pages/_app-bc578ed113021511.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-8646ebd196ee32a0.js",
+      "static/chunks/framework-715a76d8b0695da7.js",
+      "static/chunks/main-e0ddca6ca271803b.js",
+      "static/chunks/pages/_error-7397496ca01950b1.js"
+    ],
+    "/tiendas/compro-oro-alcobendas": [
+      "static/chunks/webpack-8646ebd196ee32a0.js",
+      "static/chunks/framework-715a76d8b0695da7.js",
+      "static/chunks/main-e0ddca6ca271803b.js",
+      "static/css/b0f1f689cae45583.css",
+      "static/chunks/pages/tiendas/compro-oro-alcobendas-d045aa857816b9ef.js"
     ],
     "/tiendas/compro-oro-alcobendas/calle-de-manuel-serrano-frutos-2": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tiendas/compro-oro-alcobendas/calle-de-manuel-serrano-frutos-2.js"
+      "static/chunks/webpack-8646ebd196ee32a0.js",
+      "static/chunks/framework-715a76d8b0695da7.js",
+      "static/chunks/main-e0ddca6ca271803b.js",
+      "static/chunks/682-5d9044b8c3f691af.js",
+      "static/css/fbea1f47aefc67a0.css",
+      "static/chunks/413-41b8a672dcdab9fa.js",
+      "static/chunks/pages/tiendas/compro-oro-alcobendas/calle-de-manuel-serrano-frutos-2-29ef5d59c2cff424.js"
+    ],
+    "/tiendas/compro-oro-valencia": [
+      "static/chunks/webpack-8646ebd196ee32a0.js",
+      "static/chunks/framework-715a76d8b0695da7.js",
+      "static/chunks/main-e0ddca6ca271803b.js",
+      "static/css/b0f1f689cae45583.css",
+      "static/chunks/pages/tiendas/compro-oro-valencia-b54d1f6e48828d75.js"
+    ],
+    "/tiendas/compro-oro-valencia/av-burjassot-116": [
+      "static/chunks/webpack-8646ebd196ee32a0.js",
+      "static/chunks/framework-715a76d8b0695da7.js",
+      "static/chunks/main-e0ddca6ca271803b.js",
+      "static/chunks/682-5d9044b8c3f691af.js",
+      "static/css/fbea1f47aefc67a0.css",
+      "static/chunks/413-41b8a672dcdab9fa.js",
+      "static/chunks/pages/tiendas/compro-oro-valencia/av-burjassot-116-4a28cf60626bf8e2.js"
     ]
   },
   "ampFirstPages": []
